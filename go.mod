@@ -1,4 +1,4 @@
-module changeme
+module github.com/4lcyon3/ezparking
 
 go 1.26.0
 

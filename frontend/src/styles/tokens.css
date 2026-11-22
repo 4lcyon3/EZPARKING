@@ -1,0 +1,26 @@
+:root {
+  --brand: #2563EB;         --brand-dark: #1E40AF;
+  --bg: #F8FAFC;            --surface: #FFFFFF;
+  --border: #E2E8F0;        --text: #0F172A;      --text-muted: #64748B;
+  --parked: #F59E0B;        --parked-bg: #FEF3C7;
+  --paid: #16A34A;          --paid-bg: #DCFCE7;
+  --incident: #DC2626;      --incident-bg: #FEE2E2;
+  --neutral: #64748B;       --neutral-bg: #F1F5F9;
+  --font-ui: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, Consolas, monospace;
+  --r-sm: 6px; --r-md: 10px; --r-lg: 16px;
+  --s1: 4px; --s2: 8px; --s3: 12px; --s4: 16px; --s5: 24px; --s6: 32px;
+  --shadow: 0 1px 2px rgba(15,23,42,.06), 0 8px 24px rgba(15,23,42,.06);
+}
+[data-theme="dark"] {
+  --bg: #0B1220; --surface: #111A2B; --border: #1E293B;
+  --text: #E6EDF7; --text-muted: #94A3B8;
+}
+* { box-sizing: border-box; }
+html, body, #root { height: 100%; margin: 0; }
+body {
+  background: var(--bg); color: var(--text);
+  font-family: var(--font-ui); font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+}
+button { font: inherit; cursor: pointer; }

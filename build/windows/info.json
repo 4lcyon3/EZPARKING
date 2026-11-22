@@ -5,11 +5,11 @@
 	"info": {
 		"0409": {
 			"ProductVersion": "0.1.0",
-			"CompanyName": "GeneSys",
-			"FileDescription": "A ezparking application",
-			"LegalCopyright": "© 2026, GeneSys",
-			"ProductName": "My Product",
-			"Comments": "This is a comment"
+			"CompanyName": "GeneSYS",
+			"FileDescription": "Gestión integral de estacionamientos",
+			"LegalCopyright": "(c) 2026, GeneSYS",
+			"ProductName": "ezparking",
+			"Comments": "ezparking by GeneSYS"
 		}
 	}
 }

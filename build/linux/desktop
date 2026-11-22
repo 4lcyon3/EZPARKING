@@ -1,13 +1,13 @@
 [Desktop Entry]
 Version=1.0
-Name=My Product
-Comment=A ezparking application
+Name=ezparking
+Comment=Gestión integral de estacionamientos
 # The Exec line includes %u to pass the URL to the application
-Exec=/usr/local/bin/ezparking.exe %u
+Exec=/usr/local/bin/ezparking %u
 Terminal=false
 Type=Application
-Icon=ezparking.exe
+Icon=ezparking
 Categories=Utility;
-StartupWMClass=ezparking.exe
+StartupWMClass=ezparking
 
  

@@ -3,26 +3,26 @@
 #
 # The lines below are called `modelines`. See `:help modeline`
 
-name: "ezparking.exe"
+name: "ezparking"
 arch: ${GOARCH}
 platform: "linux"
 version: "0.1.0"
 section: "default"
 priority: "extra"
 maintainer: ${GIT_COMMITTER_NAME} <${GIT_COMMITTER_EMAIL}>
-description: "A ezparking application"
-vendor: "GeneSys"
+description: "Gestión integral de estacionamientos"
+vendor: "GeneSYS"
 homepage: "https://wails.io"
 license: "MIT"
 release: "1"
 
 contents:
-  - src: "./bin/ezparking.exe"
-    dst: "/usr/local/bin/ezparking.exe"
+  - src: "./bin/ezparking"
+    dst: "/usr/local/bin/ezparking"
   - src: "./build/appicon.png"
-    dst: "/usr/share/icons/hicolor/128x128/apps/ezparking.exe.png"
-  - src: "./build/linux/ezparking.exe.desktop"
-    dst: "/usr/share/applications/ezparking.exe.desktop"
+    dst: "/usr/share/icons/hicolor/128x128/apps/ezparking.png"
+  - src: "./build/linux/ezparking.desktop"
+    dst: "/usr/share/applications/ezparking.desktop"
 
 # Default dependencies for the GTK4 + WebKitGTK 6.0 stack (Ubuntu 24.04+ / Debian 13+)
 depends:
